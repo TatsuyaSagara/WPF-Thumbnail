@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "VirtualizingWrapPanel/2.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net462/VirtualizingWrapPanel.dll": {}
+        },
+        "runtime": {
+          "lib/net462/VirtualizingWrapPanel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VirtualizingWrapPanel/2.0.10": {
+      "sha512": "jN+aw7OyjP308W0pBskrr+osUR2WndXCVhPtfvePoSo4BO1BYAGt66MhIVP4nMvioip257Dard9m0HiN1kxuNw==",
+      "type": "package",
+      "path": "virtualizingwrappanel/2.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/VirtualizingWrapPanel.dll",
+        "lib/net6.0-windows7.0/VirtualizingWrapPanel.dll",
+        "virtualizingwrappanel.2.0.10.nupkg.sha512",
+        "virtualizingwrappanel.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "VirtualizingWrapPanel >= 2.0.10"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tatsu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tatsu\\source\\repos\\Thumbnail\\Thumbnail\\Thumbnail.csproj",
+      "projectName": "Thumbnail",
+      "projectPath": "C:\\Users\\tatsu\\source\\repos\\Thumbnail\\Thumbnail\\Thumbnail.csproj",
+      "packagesPath": "C:\\Users\\tatsu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tatsu\\source\\repos\\Thumbnail\\Thumbnail\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\tatsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "VirtualizingWrapPanel": {
+            "target": "Package",
+            "version": "[2.0.10, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "パッケージ 'VirtualizingWrapPanel 2.0.10' はプロジェクトのターゲット フレームワーク 'net5.0-windows7.0' ではなく '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' を使用して復元されました。このパッケージは、使用しているプロジェクトとの完全な互換性がない可能性があります。",
+      "libraryId": "VirtualizingWrapPanel",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

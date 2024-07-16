@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Thumbnail/1.0.0": {
+        "dependencies": {
+          "VirtualizingWrapPanel": "2.0.10"
+        },
+        "runtime": {
+          "Thumbnail.dll": {}
+        }
+      },
+      "VirtualizingWrapPanel/2.0.10": {
+        "runtime": {
+          "lib/net462/VirtualizingWrapPanel.dll": {
+            "assemblyVersion": "2.0.10.0",
+            "fileVersion": "2.0.10.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Thumbnail/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VirtualizingWrapPanel/2.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jN+aw7OyjP308W0pBskrr+osUR2WndXCVhPtfvePoSo4BO1BYAGt66MhIVP4nMvioip257Dard9m0HiN1kxuNw==",
+      "path": "virtualizingwrappanel/2.0.10",
+      "hashPath": "virtualizingwrappanel.2.0.10.nupkg.sha512"
+    }
+  }
+}
